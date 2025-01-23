@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+p {
+    background-color: black;
+}
+
+#asideAzul1 {
+    font-weight: bolder;
+    font-size: 1in;
+}
+
+.asideshtmlejemplo {
+    background-color: aqua;
+    text-align: left;
+}
+
+.contenedorcss {
+    text-align: center;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 10px;
+    border-top-width: 20px;
+    border-bottom-width: 2px;
+}
+
+.gridcontainer {
+    display: grid;
+    height: 200px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+.mitad1 {
+    border: solid brown 5px;
+}
+
+.mitad2 {
+    border: solid orange 5px;
+}
