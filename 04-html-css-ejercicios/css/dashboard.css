@@ -1,0 +1,92 @@
+.contenedor-master {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contenedor-hijo{
+    background-color: whitesmoke;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.indicadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.indicador {
+    background-color: white;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.numero-indicador {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.descripcion-indicador {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: smaller;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.separador-indicador{
+    border: solid 0.5px rgb(232, 232, 232);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.valores-indicador {
+    display: flex;
+    align-items: center;
+}
+
+.texto-badge-indicador {
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: smaller;
+    margin-left: 10px;
+
+
+}
+
+.valor-badge-indicador {
+    background-color: rgb(0, 180, 0);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    
+}
+.info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex-data-info {
+    display: flex;
+    
+}
+
+.indicador-no-padding {
+    background-color: white;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.div-margen-contenido{
+    margin: 30px;
+}
+
